@@ -7,6 +7,7 @@ set history=50
 set showmode
 set mouse=a
 set laststatus=2
+set guifont=Liberation\ Mono\ for\ Powerline
 set t_Co=256
 colorscheme koehler
 autocmd Filetype text setlocal textwidth=50
