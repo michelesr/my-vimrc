@@ -1,6 +1,9 @@
 " color theme
 colorscheme koehler
 
+" load plugins
+execute pathogen#infect()
+
 " syntax and indentation
 syntax on
 filetype plugin indent on
