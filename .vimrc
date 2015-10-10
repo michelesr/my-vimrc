@@ -5,9 +5,6 @@ colorscheme koehler
 syntax on
 filetype plugin indent on
 
-" comma is the mapleader
-let mapleader = ","
-
 " general option
 set nocompatible number autoindent smartindent ruler showcmd history=50
 set showmode mouse=a laststatus=2 t_Co=256 sw=2 ts=2 tw=80 et incsearch
@@ -19,10 +16,13 @@ set foldmethod=indent foldlevelstart=10 foldnestmax=10
 " open/close code blocks with space
 nnoremap <space> za
 
+" comma is the mapleader
+let mapleader = ","
+
 " stop highlighting old search with ,<space>
 nnoremap <leader><space> :nohlsearch<CR>
 
-" save session
+" save session with ,s
 nnoremap <leader>s :mksession<CR>
 
 " remove trailing spaces and tabs on saving
