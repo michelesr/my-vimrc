@@ -4,6 +4,11 @@ colorscheme koehler
 " load plugins
 execute pathogen#infect()
 
+" ron is easier to read on vimdiff
+if &diff
+    colorscheme ron
+endif
+
 " syntax and indentation
 syntax on
 filetype plugin indent on
